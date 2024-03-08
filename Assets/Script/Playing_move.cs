@@ -28,6 +28,6 @@ public class Playing_move : MonoBehaviour
 
         animator.SetFloat("VeX", x);
         animator.SetFloat("VeY", y);
-
+        
     }
 }
