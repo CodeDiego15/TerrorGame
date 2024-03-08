@@ -5,9 +5,16 @@ using UnityEngine;
 
 public class Playing_move : MonoBehaviour
 {
-   public float runSpeed = 7;
+    public CharacterController controller;
+   public float runSpeed = 2;
    public float rotationSpeed = 100;
 
+   public float gravity = -9.8f;
+    public float jumpForce = 10f;
+    public float distance = 0.3f;
+    bool isGrounded;
+
+    Vector3 velocity;
    Animator animator;
    private float x, y;
 
