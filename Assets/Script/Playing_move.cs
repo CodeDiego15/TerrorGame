@@ -14,6 +14,9 @@ public class Playing_move : MonoBehaviour
     public float distance = 0.3f;
     bool isGrounded;
 
+    public AudioSource audio;
+    private bool Hactivo;
+    private bool Vactivo;
     Vector3 velocity;
    Animator animator;
    private float x, y;
@@ -29,5 +32,36 @@ public class Playing_move : MonoBehaviour
         animator.SetFloat("VeX", x);
         animator.SetFloat("VeY", y);
         
+        if(Input.GetButtonDown("Horizontal"))
+        {
+            Hactivo = true;
+            audio.Play();
+        }
+           
+    if(Input.GetButtonDown("Vertical"))
+        {
+            Vactivo = true;
+            audio.Play();
+        }
+        if(Input.GetButtonUp("Horizontal"))
+        {
+            Vactivo = false;
+            if(Vactivo == false)
+            {
+                audio.Pause();
+            }
+
+        }
+        if(Input.GetButtonUp("Vertical"))
+        {
+            Hactivo = false;
+            if(Hactivo == false)
+            {
+            audio.Pause();
+            }
     }
+
+
+        }
+       
 }
