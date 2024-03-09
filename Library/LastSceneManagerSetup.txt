@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Hospital_Dev/HospitalHorror/Map_Hosp1.unity
+- path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes/DemoAsteroids-GameScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
