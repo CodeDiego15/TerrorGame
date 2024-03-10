@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Hospital_Dev/HospitalHorror/Hospital.unity
+- path: Assets/Scenes/Letras.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
