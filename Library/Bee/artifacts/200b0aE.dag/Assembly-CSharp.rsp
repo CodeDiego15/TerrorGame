@@ -404,6 +404,7 @@
 "Assets/Script/Launcher.cs"
 "Assets/Script/Logica_Red.cs"
 "Assets/Script/Playing_move.cs"
+"Assets/Script/QuitGame.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
