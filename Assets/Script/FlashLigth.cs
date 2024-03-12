@@ -26,5 +26,6 @@ public class FlashLigth : MonoBehaviour
                 Linterna.enabled = true;
             }
         }
+        
     }
 }
