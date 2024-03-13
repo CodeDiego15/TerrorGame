@@ -394,6 +394,8 @@
 "Assets/Script/Prueba.cs"
 "Assets/Script/QuitGame.cs"
 "Assets/Script/ScenesMenu.cs"
+"Assets/Script/SoundSteps.cs"
+"Assets/Script/SoundZombie.cs"
 "Assets/Script/ZombieMovent.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
