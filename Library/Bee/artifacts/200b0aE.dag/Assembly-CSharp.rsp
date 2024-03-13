@@ -391,6 +391,7 @@
 "Assets/Script/MusicButton.cs"
 "Assets/Script/PanelQuit.cs"
 "Assets/Script/Playing_move.cs"
+"Assets/Script/Prueba.cs"
 "Assets/Script/QuitGame.cs"
 "Assets/Script/ScenesMenu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
@@ -427,6 +428,8 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/_Barking_Dog/Common Scripts/MouseLook.cs"
+"Assets/_Barking_Dog/Common Scripts/Turn_Move.cs"
 -langversion:9.0
 
 /deterministic

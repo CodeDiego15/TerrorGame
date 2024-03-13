@@ -11,7 +11,7 @@ public class CamaraCambio : MonoBehaviour
     }
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter(Collider other)

@@ -6,7 +6,6 @@ public class DoorController : MonoBehaviour
 {
     public Transform leftDoor;
     public Transform rightDoor;
-
     public float doorSpeed = 5f;
     public float doorWidth = 1f;
 
@@ -26,23 +25,24 @@ public class DoorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (leftDoorOpen)
+        if(rightDoorOpen)
         {
-            leftDoor.position = Vector3.MoveTowards(leftDoor.position, initialLeftDoorPosition + new Vector3(doorWidth, 0, 2.7f), doorSpeed * Time.deltaTime);
+            rightDoor.Translate(rightDoor.forward * doorSpeed * Time.deltaTime);
         }
         else
         {
-            leftDoor.position = Vector3.MoveTowards(leftDoor.position, initialLeftDoorPosition, doorSpeed * Time.deltaTime);
+            rightDoor.position = initialRightDoorPosition;
         }
 
-        if (rightDoorOpen)
+         if(leftDoorOpen)
         {
-            rightDoor.position = Vector3.MoveTowards(rightDoor.position, initialRightDoorPosition - new Vector3(doorWidth, 0.02f, -2.14f), doorSpeed * Time.deltaTime);
+            leftDoor.Translate(leftDoor.forward * doorSpeed * Time.deltaTime);
         }
         else
         {
-            rightDoor.position = Vector3.MoveTowards(rightDoor.position, initialRightDoorPosition, doorSpeed * Time.deltaTime);
+            leftDoor.position = initialLeftDoorPosition;
         }
+     
     }
 
     public void OpenLeftDoor()
